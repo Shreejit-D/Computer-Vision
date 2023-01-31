@@ -1,5 +1,11 @@
-1. The Extension for skin detection can be performed directly by opening the .exe using it as trusted file and pressing 'o' which will be fun than sharing a video.
-2. OS - Windows, IDE - Visual Studio 2022
-3. You can direclty run the executable and follow the instructions to implement the filters and extensions!!
-4. You can use the extensions by following the directions when you run the .exe
-5. Submission on time! 
+Created various live filters which can be implemented on web-cam of any laptop. Some of the filters are -
+a. Alternate Grayscale
+b. Gaussian Blurring
+c. Blur/Quantization
+d. Sobel X-Y filtering
+e. Edge Detection
+f. Cartoonization effect
+g. Human skin detection
+
+Directions to use - Download the filter.exe and run it on your PC as a trusted file. Follow the directions to run various filters on it!
+Have fun
