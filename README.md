@@ -1,4 +1,4 @@
-Attached are mini-projects done in the coursework - Robot Sensing and Navigation
+Attached are mini-projects done in the coursework - Robot Sensing and Navigation, Computer Vision, Legged Robotics
 
 Dead - Reckoning
 In this project, a GPS and IMU were used to perform dead-reckoning (A pose estimation problem where we estimate the position (heading and co-ordinates) based on previous position and vehile kinematics.
