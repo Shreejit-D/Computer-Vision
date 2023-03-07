@@ -18,3 +18,6 @@ I used complementary filters on IMU magnetometer yaw estimate and Gyroscope yaw 
 
 <>Content Based Image filtering
   Descrition inside
+
+<>Real time object description
+  Description inside
