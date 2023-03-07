@@ -7,5 +7,5 @@ e. Edge Detection
 f. Cartoonization effect
 g. Human skin detection
 
-Directions to use - Download the filter.exe and run it on your PC as a trusted file. Follow the directions to run various filters on it!
+Directions to use - Can directly download the .exe and run it or use your IDE to compile and run. Follow the directions to run various filters on it!
 Have fun
