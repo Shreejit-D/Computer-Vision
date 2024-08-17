@@ -1,1 +1,0 @@
-Jupyter Notebook is present in "src/analysis" for 2-D mapping (localizing) using IMU data (sensor fusion with Magnetometer and Gyroscope readings) and is compared with GPS data
