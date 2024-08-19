@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project, *Real-Time Filtering*, focuses on implementing various filters (both built-in and user-defined) on frames captured from a video stream using OpenCV in C++. The project is structured into multiple tasks, each designed to deepen the understanding of OpenCV and its capabilities.
+This project, *Real-Time Filtering*, focuses on implementing various filters (both built-in and user-defined) on frames captured from a video stream using OpenCV in C++. The project is structured into multiple tasks, each designed to deepen the understanding of pixel based filtering from scratch.
 
 ## Features
 
