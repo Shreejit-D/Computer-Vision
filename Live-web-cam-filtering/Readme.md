@@ -1,4 +1,4 @@
-# Real-Time Video Filtering with OpenCV (C++)
+# Real-Time Video Filtering (C++)
 
 ## Introduction
 
