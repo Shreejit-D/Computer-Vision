@@ -22,12 +22,10 @@ The aim of this project is to find the distortion coefficients caused by imperfe
 
 ### Task 2: Drawing Circles on Detected Corners
 - **Objective:** Highlight the detected inner corners by drawing circles on each point.
-- **Visuals:** The corners detected in the calibration images are highlighted with circles.
 
 ### Task 3: Camera Calibration
 - **Objective:** Use the `calibrateCamera` function in OpenCV to estimate the intrinsic and extrinsic parameters of the camera.
 - **Output:** The function returns the calibrated camera matrix, distortion coefficients, and other parameters used for image rectification and 3D reconstruction.
-- **Visuals:** Comparison of camera intrinsic matrix and distortion coefficients before and after calibration.
 
 ### Task 4: Estimating Camera Pose
 - **Objective:** Estimate the camera's pose (rotation and translation) using the checkerboard pattern.
@@ -36,12 +34,10 @@ The aim of this project is to find the distortion coefficients caused by imperfe
 ### Task 5: Projecting 3D Points onto 2D Image Plane
 - **Objective:** Project 3D points onto a 2D image plane using the `projectPoints` function.
 - **Method:** This function uses the camera matrix, rotation, and translation vectors to project 3D points (like the corners of the checkerboard) onto the 2D image.
-- **Visuals:** Projection of 3D axes and corner points onto the checkerboard.
 
 ### Task 6: Projecting a 3D Object onto the Checkerboard
 - **Objective:** Visualize a 3D object projected onto the 2D image plane of the checkerboard.
 - **Method:** A star-shaped 3D object is created and projected onto the checkerboard image using the same technique as in Task 5.
-- **Visuals:** The 3D star projected onto the checkerboard plane.
 
 ### Task 7: Harris Corner Detector
 - **Objective:** Use the Harris corner detector to identify features in the image.
@@ -61,7 +57,6 @@ The aim of this project is to find the distortion coefficients caused by imperfe
 - **Functions Used:**
   - `getPerspectiveTransform`: Calculates the transformation matrix needed to warp the image.
   - `warpPerspective`: Applies the perspective transformation to align the image with the cross.
-- **Visuals:** The final output showing Pikachu warped onto the cross 'X'.
 
 ## Conclusion
 
