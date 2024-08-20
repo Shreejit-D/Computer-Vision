@@ -4,6 +4,10 @@
 
 The aim of this project is to find the distortion coefficients caused by imperfections in the camera lens, the intrinsic camera matrix, and to use these values to transform 3D visualized objects back to a 2D image plane. The project is divided into 7 tasks, each focusing on different aspects of camera calibration and 3D projection.
 
+### 3D object projection -
+
+![image](https://github.com/user-attachments/assets/76d7d18f-912c-473c-92bb-5906fcd1683b)
+
 ## Tasks Overview
 
 ### Task 1: Finding the Inner Corners of the Checkerboard
