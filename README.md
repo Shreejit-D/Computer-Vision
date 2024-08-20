@@ -1,4 +1,4 @@
-# Comprehensive Exploration of Classical Computer Vision, AR/VR, and Deep Learning
+# Projects Done in Pattern Recognition and Computer Vision Spring 23'
 
 ## Introduction
 
