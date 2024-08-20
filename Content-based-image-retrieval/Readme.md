@@ -50,7 +50,6 @@ The purpose of this project is to correlate and rank images based on the feature
 ### Extension A: Collage Creation
 - **Objective:** Visualize the ranking results quickly by creating a collage of the top-ranked images.
 - **Method:** The collage is automatically generated and saved as an output file.
-- **Results:** A sample collage was created for Task 1, demonstrating the top 10 results from the Olympus dataset.
 
 ### Extension B: Banana Finder
 - **Objective:** Identify the presence of a banana in the center of an image using a custom algorithm.
