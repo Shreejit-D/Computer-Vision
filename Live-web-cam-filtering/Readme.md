@@ -4,6 +4,11 @@
 
 This project, *Real-Time Filtering*, focuses on implementing various filters (both built-in and user-defined) on frames captured from a video stream using OpenCV in C++. The project is structured into multiple tasks, each designed to deepen the understanding of pixel based filtering from scratch.
 
+### Screenshots from real time filtering -
+![image](https://github.com/user-attachments/assets/73b2892e-9688-49d9-8acf-5167dc6af488)
+![image](https://github.com/user-attachments/assets/61938d3e-a29c-4a1d-84a6-8626affce89c)
+![image](https://github.com/user-attachments/assets/95c5588d-f42a-43db-b667-a940d0374312)
+
 ## Features
 
 ### 1. Grayscale Conversion
