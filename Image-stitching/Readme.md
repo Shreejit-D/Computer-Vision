@@ -65,7 +65,7 @@ Create photo mosaics using different sets of images with varying overlaps and im
 - **Graffiti Comparison:** The 50% overlap provided better results, while the 15% overlap required significant adjustments, leading to information loss.
 
 ### Code
-The MATLAB code used for stitching all images is `image_stitching.m`, located in the analysis folder. The same parameters were used across all image sets.
+The MATLAB code used for stitching all images is `image_stitching.m`. The same parameters were used across all image sets.
 
 ## Conclusion
 
