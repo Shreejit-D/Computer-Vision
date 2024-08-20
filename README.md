@@ -1,62 +1,41 @@
-# Content-Based Image Retrieval (CBIR)
+# Comprehensive Exploration of Classical Computer Vision, AR/VR, and Deep Learning
 
 ## Introduction
 
-The purpose of this project is to correlate and rank images based on the features of a target image compared to other images in the dataset. These features may include pixel color, texture, or a combination of both. The project is divided into five primary tasks, each implementing different methods for image comparison and retrieval.
+This repository contains a series of projects that collectively explore the diverse and intersecting fields of classical computer vision, augmented reality (AR), virtual reality (VR), and deep learning. Each project in this collection highlights the application of these technologies to solve complex problems, ranging from camera calibration and object recognition to advanced driving assistance systems and immersive AR experiences. Together, these projects provide a comprehensive overview of the key techniques and methodologies used in modern computer vision and related fields.
 
-## Tasks Overview
+## Project Summaries
 
-### Task 1: Baseline Matching
-- **Objective:** Perform a direct pixel-to-pixel RGB color intensity comparison between the target and query images.
-- **Method:** A 9x9 matrix is extracted from the center of the target image, and each pixel's RGB intensity is compared to the query images using the least squares metric.
-- **Results:** The top 3 results for the image `pic.1016.jpg` demonstrate that red color dominates the ranked images, reflecting the red dominance in the target image.
+### 1. **Real-time Filtering and Video Processing**
+   - **Scope:** Classical Computer Vision
+   - **Summary:** This project focuses on implementing various real-time filters on video streams using OpenCV. The tasks include grayscale conversion, Gaussian blur, Sobel filtering, and more, providing a foundational understanding of image processing techniques.
+   - **Key Techniques:** Image filtering, edge detection, video processing.
 
-### Task 2: Histogram Matching
-- **Objective:** Compare images based on the rg chromaticity normalized histogram.
-- **Method:** For each pixel, the r and g chromaticity values are calculated and placed into 18x18 bins. Histogram intersection is used as the comparison metric.
-- **Results:** For `pic.0164.jpg` as the target, the results show images with a similar proportion of blue and green.
+### 2. **Content-Based Image Retrieval (CBIR)**
+   - **Scope:** Classical Computer Vision
+   - **Summary:** This project implements several methods for image retrieval based on content, such as color histograms, texture analysis, and custom-designed metrics. It demonstrates the power of feature-based image comparison and retrieval.
+   - **Key Techniques:** Histogram matching, Sobel filtering, custom image metrics.
 
-### Task 3: Multi-Histogram Matching
-- **Objective:** Improve matching by dividing the target image into four sections and matching histograms for each section separately.
-- **Method:** The target and query images are divided into four quadrants, and histograms are calculated and compared for each corresponding section.
-- **Results:** For `pic.0274.jpg`, the results are visually more correlated, with similar sectional color distribution across images.
+### 3. **Real-time 2D Object Recognition**
+   - **Scope:** Classical Computer Vision
+   - **Summary:** This project involves real-time object recognition using shape features like Hu moments that are invariant to scale, rotation, and translation. It combines traditional image processing with feature extraction techniques to recognize objects within video frames.
+   - **Key Techniques:** Edge detection, feature extraction, object recognition.
 
-### Task 4: Texture and Color Matching
-- **Objective:** Combine color histogram matching with Sobel magnitude histogram matching, equally weighted.
-- **Method:** Histogram intersection is used to compare both color distribution and boundary texture between the target and query images.
-- **Results:** For `pic.0535.jpg`, the results show a good balance of color and texture similarity, reflecting the equal weights given to color and texture metrics.
+### 4. **Photo Mosaic Creation and Camera Calibration**
+   - **Scope:** AR/VR and Classical Computer Vision
+   - **Summary:** This project covers camera calibration using a checkerboard pattern and the creation of photo mosaics from overlapping images. The calibration process corrects lens distortions, and the mosaic creation showcases how multiple images can be stitched together to form a cohesive scene.
+   - **Key Techniques:** Camera calibration, image stitching, 3D projection.
 
-### Task 5: Custom Design - Sky Detection
-- **Objective:** Rank images based on the presence of a blue sky using a custom reward/punish metric.
-- **Method:** The algorithm extracts the upper half of each image, analyzes HSV values to detect blue sky, and applies a reward/punish system to rank images.
-- **Results:** The method performs well with 100% accuracy for easy and medium sets, and 75% for the difficult set, with challenges arising from non-sky blue backgrounds.
+### 5. **Visual Driving Assistant (VDA)**
+   - **Scope:** Deep Learning and Classical Computer Vision
+   - **Summary:** This project combines deep learning with traditional computer vision techniques to develop a visual driving assistant. The system uses the YOLOv8 model for object detection and classical algorithms like Canny edge detection and Hough transforms for lane detection, providing real-time feedback to drivers.
+   - **Key Techniques:** Deep learning (YOLO), edge detection, Hough transforms, real-time processing.
 
-## Extensions
+### 6. **Augmented Reality with Custom Object Projection**
+   - **Scope:** AR/VR and Classical Computer Vision
+   - **Summary:** This project involves projecting 3D objects onto a real-world scene using camera calibration data and feature detection. The extension demonstrates how to warp an image onto a physical marker, such as a cross, to create an augmented reality experience.
+   - **Key Techniques:** Perspective transformation, image warping, AR object projection.
 
-### Extension A: Collage Creation
-- **Objective:** Visualize the ranking results quickly by creating a collage of the top-ranked images.
-- **Method:** The collage is automatically generated and saved as an output file.
-- **Results:** A sample collage was created for Task 1, demonstrating the top 10 results from the Olympus dataset.
+## Conclusion
 
-### Extension B: Banana Finder
-- **Objective:** Identify the presence of a banana in the center of an image using a custom algorithm.
-- **Method:** The algorithm is divided into six steps: 
-  1. Center portion extraction.
-  2. Gaussian blur application.
-  3. Sobel magnitude application.
-  4. Histogram matching with reference banana images.
-  5. HSV color analysis.
-  6. Weight optimization.
-- **Results:** The algorithm achieved 80% accuracy for easy and medium sets and 60% for the difficult set. Challenges include noise in Sobel magnitude images and the need for more sophisticated shape recognition algorithms.
-
-## How to Run
-
-### Prerequisites
-- **C++ Compiler** (e.g., GCC, MSVC)
-- **OpenCV Library** (version 4.x or higher)
-
-### Setup and Installation
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/content-based-image-retrieval.git
-   cd content-based-image-retrieval
+This repository provides a deep dive into the world of computer vision, AR/VR, and deep learning, illustrating how these technologies can be combined to create innovative solutions across various domains. From foundational techniques in image processing to advanced applications in augmented reality and deep learning, these projects collectively offer a robust understanding of modern visual computing.
