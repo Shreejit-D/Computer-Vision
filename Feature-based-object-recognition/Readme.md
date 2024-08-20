@@ -4,6 +4,10 @@
 
 The goal of this project is to perform real-time object recognition using shape features such as moments, which are invariant to scale, translation, and rotation. The project involves several tasks that guide the implementation of the object recognition system using custom algorithms and OpenCV functions.
 
+### Working Video
+
+https://github.com/user-attachments/assets/9c6982ca-c260-4566-85f4-47711960cd52
+
 ## Tasks Overview
 
 ### Task 1: Thresholding the Input Video (Without OpenCV Function)
