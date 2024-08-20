@@ -3,6 +3,10 @@
 ## Abstract
 In this project, we present a comprehensive Visual Driving Assistant (VDA) that combines lane detection and object recognition to enhance road safety. The system employs the state-of-the-art YOLOv8 model for object detection, specifically targeting vehicles within the field of view. For lane detection, a series of image processing techniques, including Canny edge detection, Hough transforms, and masking, are utilized to identify and draw the left and right lanes. The system distinguishes between vehicles on the left, right, and ahead, issuing alerts to the driver when a vehicle is deemed too close. The results of both lane detection and object recognition are combined and visualized in real-time video output, showcasing the system's potential as a valuable driving aid. This work demonstrates the effectiveness of combining advanced deep learning techniques with traditional computer vision algorithms to enhance the driving experience and promote safety on the road.
 
+### Algorithm in action -
+
+https://github.com/user-attachments/assets/24e6d6e6-cdae-4bbf-8853-a1106f8fb4a5
+
 ## I. Introduction
 With the increasing number of vehicles on the road, driving safety has become a critical concern. Visual Driving Assistant (VDA) systems are being developed to intelligently analyze the environment, support drivers, and promote safer driving habits. This project proposes a comprehensive VDA that combines lane detection and object recognition to enhance driving safety.
 
